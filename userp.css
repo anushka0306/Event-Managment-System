@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d3d3d3;
+}
+
+.header {
+    background-color: #3366cc;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.button-group button, .logout button {
+    background-color: #3366cc;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.logout {
+    margin-top: 30px;
+}
